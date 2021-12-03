@@ -23,7 +23,7 @@
 		"patcx.vscode-nuget-gallery"
 	],
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	// "forwardPorts": [5000, 5001],
+	//"forwardPorts": [],
 	// [Optional] To reuse of your local HTTPS dev cert:
 	//
 	// 1. Export it locally using this command:
