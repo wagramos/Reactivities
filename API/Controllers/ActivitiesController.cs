@@ -18,4 +18,10 @@ public class ActivitiesController : BaseApiController
         return Ok(await Mediator.Send(new ActivityDetails.Query(id)));
     }
 
+    [HttpPost]
+    public async Task<IActionResult> CreateActivity(Activity activity)
+    {
+        return Ok(await Mediator.Send(new ActivityCreate.Command(activity)));
+    }
+
 }
